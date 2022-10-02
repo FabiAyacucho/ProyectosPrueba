@@ -1,0 +1,78 @@
+
+
+
+.nav-link active {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+#principal{
+    
+    background-image:url("./imagnes/ba1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:auto;
+    opacity: 80%;
+     
+    
+     
+     
+}
+#texto_principal{
+    font-family: Arial, Helvetica, sans-serif;
+  
+    color: rgb(255, 255, 255);
+    text-align: right;
+    margin: 1rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    min-height: 4rem;
+    min-width: 2rem;
+    
+
+    
+    
+}
+#titulo {
+font-size: 2rem;
+font-style: solid;
+font-weight: 700;
+color: rgb(239, 242, 245);
+text-align: right;
+margin: 1px,1px,1px,1px;
+padding-right: 4rem;
+padding-bottom: 1px;
+padding-top: 10rem;
+}
+
+
+.botones1{
+    text-align: right;
+    margin: 1rem;
+ 
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    
+}
+h6{
+    text-align: center;
+    margin-top: 10rem;
+    font-size:1rem ;
+    padding-top: 1rem;
+}
+h2{
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+
+}
+
+
+ #lorem{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    
+}
+#textarea{
+    font-family: sans-serif;
+    font-size: larger;
+}
