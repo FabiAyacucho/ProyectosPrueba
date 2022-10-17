@@ -1,0 +1,199 @@
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de tickets</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+</head>
+
+
+
+<body>
+    
+
+ <nav class="navbar navbar-expand-lg bg-secondary " id="navbar">
+    <div class="container-fluid">
+      <a class="logo" id="logo" href="#">
+        <img src="css/imagnes/codoacodo.png" alt="Bootstrap" width="90" height="60" >
+      </a>  
+      <a class="navbar-brand" href="#">Conf Bs As</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Los oradores</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                El lugar y la fecha
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conviértete en orador</a>
+            </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+         
+
+        </form>
+      </div>
+    </div>
+ </nav>
+ <main>
+ <section class="conteiner justify-content-center row mx-2 gap-3 text-center my-5 ">
+    <div class="card text-bg-dark py-4 " style="max-width: 14rem;">
+        <div class="card-header"></div>
+        <h4 class="card-title">Estudiante</h4>
+        <div class="card-body">
+          <h6 class="card-title py-4">Tienen un descuento</h6>
+          <h5 class="card-title py-4">80%</h5>
+          <p class="card-text py-4" style="font-size: 0.8rem ;">* presentar documentacion</p>
+        </div>
+      </div>
+      <div class="card text-bg-dark py-4" style="max-width: 14rem;">
+        <div class="card-header"></div>
+        <h4 class="card-title">Trainee</h4>
+        <div class="card-body">
+          <h6 class="card-title py-4">Tienen un descuento</h6>
+          <h5 class="card-title py-4">50%</h5>
+          <p class="card-text py-4" style="font-size: 0.8rem ;">* presentar documentacion</p>
+        </div>
+      </div>
+      <div class="card text-bg-dark py-4" style="max-width: 14rem;">
+        <div class="card-header"></div>
+        <h4 class="card-title">Junior</h4>
+        <div class="card-body">
+          <h6 class="card-title py-4">Tienen un descuento</h6>
+          <h5 class="card-title py-4 ">15%</h5>
+          <p class="card-text py-4" style="font-size: 0.8rem ;">* presentar documentacion</p>
+        </div>
+      </div>
+      <p class="text center" style="font-size: 2rem ;">venta</p>
+      <h1 class="text center"><b>VALOR DEL TICKETS $200</b> </h1>
+
+ </section>
+
+ 
+ <form action="">
+  <section class="row justify-content-center m-4">
+    <div class=" col-4">
+      <input type="text" class="form-control" placeholder="Nombre" name="nombre">
+    </div>
+    <div class="col-4" >
+      <input type="text" class="form-control" placeholder="Apellido" name="apellido">
+    </div>
+    <div class="col-8 my-4 mx-4" >
+      <input type="text" class="form-control "  placeholder="Correo" name="Correo">
+     
+    </div>
+   
+  
+  
+    <div class=" col-4 ">
+      <label style="margin-bottom: 0.8rem;" for="">CANTIDAD</label>
+      <input class="form-select form-select-lg mb-3"  type="" id="cantidad">
+    </div>
+    
+    <div class=" col-4" >
+      <label style="font-size: 1rem;margin-bottom: 0.8rem;" >SELECCIONE LA CATEGORIA</label>
+     <select class="form-select form-select-lg mb-3"  id="selector">
+      <option style="font-size: 1rem;" value = "0"></option>
+      <option style="font-size: 1rem;" value = "20">ESTUDIANTE</option>
+      <option style="font-size: 1rem;" value="100">TRAINEE</option>
+      <option style="font-size: 1rem;" value="170">JUNIOR</option>
+     </select>
+    </div>
+  </SEction> 
+</form>
+
+
+  
+
+
+      <div class="ROW justify-content-center ">
+         <div class="justify-content-center col-8 my-6">
+          <h4 class="my-4" style="text-align: center;">EL TOTAL A PAGAR ES: <span id="span">0</span></h4>
+         </div>
+        <div class="row justify-content-center m-1 gap-4 ">
+          <button class="btn btn-success col-6" style="width: 22rem;" id="resumen">RESUMEN</button>
+          <button class="btn btn-success col-6" style="width: 22rem;" id="borrar">BORRAR</button>
+        </div>
+      </div>
+
+
+
+
+ </main>
+ <nav class="navbar navbar-expand-sm bg-dark navbar-dark m-4">
+  <div class="container-fluid">
+    <span class="navbar-text">Preguntas frecuentes</span>
+  </div>
+  <div class="container-fluid">
+    <span class="navbar-text">Contactanos</span>
+  </div>
+  <div class="container-fluid">
+    <span class="navbar-text">Prensa</span>
+  </div>
+  <div class="container-fluid">
+    <span class="navbar-text">Conferencia</span>
+  </div>
+  <div class="container-fluid">
+    <span class="navbar-text">Terminos y<br></br>condiciones</span>
+  </div>
+  <div class="container-fluid">
+    <span class="navbar-text">Privacidad</span>
+  </div>
+  <div class="container-fluid">
+    <span class="navbar-text">Estudiantes</span>
+  </div>
+ </nav>
+
+
+  <script>
+
+   const resumen = document.querySelector("#resumen")
+   const span = document.querySelector("#span")
+   const select = document.getElementById('selector')
+   const cantidad = document.getElementById('cantidad')
+   const borrar = document.getElementById('borrar')
+   let contador = 0
+
+    select.addEventListener('change', 
+    function(){
+    const valorDelSelect = this.options[select.selectedIndex]
+    //alert(select.value);
+    });
+
+    resumen.addEventListener('click',() => {
+    let sel = select.value;
+    let cant = cantidad.value;
+    contador  = cant * sel ;
+    //alert(contador)
+    span.textContent = contador
+    
+       });
+
+    borrar.addEventListener('click',() =>{
+      contador = 0
+      span.textContent = contador
+       })   
+   </script>
+
+ 
+  
+  </body>
+</html>
